@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(247, 247, 166);
 }
 
 code {
@@ -18,7 +19,27 @@ main .projects {
   gap: 15px;
 }
 
-main img {
-max-width: 1200px;
+img {
+max-width: 100%;
 height: auto;
+}
+
+Header {
+  background-color: rgb(148, 250, 216);
+  Height: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:not(:last-child) {
+  margin-right: 10px;
+}
+
+header nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
 }

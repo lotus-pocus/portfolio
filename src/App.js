@@ -1,5 +1,9 @@
 import './App.css';
 import Project from './components/Project';
+import { useState } from 'react';
+import Landing from './pages/Landing';
+import About from './pages/About';
+import Header from './components/Header';
 
 // Import data from data.json file
 
@@ -14,7 +18,10 @@ function App() {
 
   return (
     <>
-      <header title={title} />
+      <Header />
+
+      <Landing />
+      <About />
 
       <main>
 
@@ -23,8 +30,13 @@ function App() {
         <div className="project">
           {/* Use the map() method to output a <div> for each project */}
 
-          {project.map((charobj, index) => <Project key={index} name={charobj.name} 
-            image={charobj.image} deployed page={charobj['Deployed page']} />)}
+          {project.map((charobj, index) => (
+          <Project 
+            key={index} 
+            name={charobj.name} 
+            image={charobj.image} 
+            deployed page={charobj['Deployed page']} />
+            ))}
         
           </div>
 
