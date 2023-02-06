@@ -1,9 +1,12 @@
+import {Routes, Route} from 'react-router-dom';
 import './App.css';
 import Project from './components/Project';
-import { useState } from 'react';
 import Landing from './pages/Landing';
 import About from './pages/About';
 import Header from './components/Header';
+
+
+// import myImage from './images/me2';
 
 // Import data from data.json file
 
@@ -16,13 +19,16 @@ import project from './data.json';
 function App() {
   const title = "Portfolio";
 
+
   return (
     <>
       <Header />
 
-      <Landing />
-      <About />
-
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      
       <main>
 
         <h2>Projects: </h2>
