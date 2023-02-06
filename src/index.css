@@ -17,3 +17,8 @@ main .projects {
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
 }
+
+main img {
+max-width: 1200px;
+height: auto;
+}

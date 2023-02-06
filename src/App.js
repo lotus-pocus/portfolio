@@ -1,4 +1,5 @@
 import './App.css';
+import Project from './components/Project';
 
 // Import data from data.json file
 
@@ -9,7 +10,7 @@ import project from './data.json';
 // import image from "./image";
 
 function App() {
-  const title= "Portfolio";
+  const title = "Portfolio";
 
   return (
     <>
@@ -19,26 +20,16 @@ function App() {
 
         <h2>Projects: </h2>
 
-        <div className="box">
-      {/* Use the map() method to output a <div> for each project */}
+        <div className="project">
+          {/* Use the map() method to output a <div> for each project */}
 
-      {project.map((charobj, index) => {
-        return (
-          <div key={index}>
-            <h3>{charobj.name}</h3>
-            <img src={charobj.image} alt="project_image" />
-            <br/>
-
-            {charobj['Deployed page']}
-          </div>
-        )
-      })}
-        </div>
+          {project.map((charobj, index) => <Project key={index} name={charobj.name} 
+            image={charobj.image} deployed page={charobj['Deployed page']} />)}
         
+          </div>
+
       </main>
     </>
-      
-  
   );
 }
 
