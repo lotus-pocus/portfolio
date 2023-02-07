@@ -18,7 +18,7 @@
 
   ## Usage
   This webpage application is to showcase my portfolio, providing contact information and examples of my work.
-  <img src=./image/webpage_screenshot.png>
+  <img src =./src/image/webpage_screenshot.png>
 
   ## License
   The license for this project is MIT
