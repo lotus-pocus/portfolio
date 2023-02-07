@@ -1,14 +1,18 @@
+import background from "../image/background.png"
+
 function Landing() {
     return (
-        <>
-        <h1>Landing</h1>
-        <p>I have been on a journey learning to code and to understand the processes
-        involved in Web Development. I have always found coding fascinating and 
-        look forward to learning and developing my skills further through undertaking
-        projects and creating webpages in react.
-        </p>
-        </>
-    )
+        <div style={{backgroundImage:`url(${background})`,
+        backgroundRepeat:"no-repeat",backgroundSize:"cover",
+        height:1200
+         }}>
+        
+            <h1 style={{color:"blueviolet"}}>for the love of design</h1>
+            <br></br>
+            <p>Creating webpages of all flavours
+            </p>
+        </div>
+    );
 }
 
-export default Landing;
+export default Landing

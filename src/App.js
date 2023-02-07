@@ -1,5 +1,4 @@
 import {Routes, Route} from 'react-router-dom';
-import './App.css';
 import Project from './components/Project';
 import Landing from './pages/Landing';
 import About from './pages/About';
@@ -10,7 +9,7 @@ import Header from './components/Header';
 
 // Import data from data.json file
 
-import project from './data.json';
+
 
 //import images from folder
 
@@ -27,26 +26,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
+        <Route path="/Project" element={<Project />} />
       </Routes>
       
-      <main>
-
-        <h2>Projects: </h2>
-
-        <div className="project">
-          {/* Use the map() method to output a <div> for each project */}
-
-          {project.map((charobj, index) => (
-          <Project 
-            key={index} 
-            name={charobj.name} 
-            image={charobj.image} 
-            deployed page={charobj['Deployed page']} />
-            ))}
-        
-          </div>
-
-      </main>
+      
     </>
   );
 }
