@@ -17,7 +17,7 @@ function About() {
         <a href="https://www.github.com/lotus-pocus">Github</a>
         <p className="contactInfo">Contact details:</p>
         <a href="https://www.linkedin.com/in/lotus-tay-06a89521/">LinkedIn</a>
-        <a href="lotustay78@gmail.com">email</a>
+        <a href="mailto:lotustay78@gmail.com">email</a>
         </>
     )
 }

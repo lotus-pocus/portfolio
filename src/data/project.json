@@ -2,42 +2,42 @@
     {
         "id": "0",
         "name": "Todo List",
-        "Deployed page": "https://lotus-pocus.github.io/TodoList/",
+        "url": "https://lotus-pocus.github.io/TodoList/",
         "Github repo": "https://github.com/lotus-pocus/TodoList",
         "image": "image/image01.png"
     },
     {
         "id": "1",
         "name": "Rhyming word Game collaboration",
-        "Deployed page": "https://ozgunefe.github.io/Rhyming-Word-Game/",
+        "url": "https://ozgunefe.github.io/Rhyming-Word-Game/",
         "Github repo": "https://github.com/OzgunEfe/Rhyming-Word-Game",
         "image": "image/image02.png"
     },
     {
         "id": "2",
         "name": "Work Day Scheduler",
-        "Deployed page": "https://lotus-pocus.github.io/Work_Day_Scheduler/",
+        "url": "https://lotus-pocus.github.io/Work_Day_Scheduler/",
         "Github repo": "https://github.com/lotus-pocus/Work_Day_Scheduler",
         "image": "image/image03.png"
     },
     {
         "id": "3",
         "name": "Code Quiz",
-        "Deployed page": "https://lotus-pocus.github.io/Code_Quiz/",
+        "url": "https://lotus-pocus.github.io/Code_Quiz/",
         "Github repo": "https://github.com/lotus-pocus/Code_Quiz",
         "image": "image/image04.png"
     },
     {
         "id": "4",
         "name": "Random Password Generator",
-        "Deployed page": "https://lotus-pocus.github.io/Random_Password_Generator/",
+        "url": "https://lotus-pocus.github.io/Random_Password_Generator/",
         "Github repo": "https://github.com/lotus-pocus/Random_Password_Generator",
         "image": "image/image05.png"
     },
     {
         "id": "5",
         "name": "Bootstrap",
-        "Deployed page": "https://lotus-pocus.github.io/Bootstrap-Portfolio/",
+        "url": "https://lotus-pocus.github.io/Bootstrap-Portfolio/",
         "Github repo": "https://github.com/lotus-pocus/Bootstrap-Portfolio",
         "image": "image/image06.png"
     }

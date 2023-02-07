@@ -13,12 +13,12 @@ function Project() {
 
       {/* Use the map() method to output a <div> for each project */}
 
-      {project.map((charobj, index) => {
+      {project.map((Object, index) => {
         return (
           <div key={index}>
-            <h3>{charobj.name}</h3>
+            <h3>{Object.name}</h3>
             <img src={projectImages} alt=""/>
-            <p>{charobj['Deployed page']}</p>
+            <p>{Object.url}</p>
           </div>
         )
       })}
