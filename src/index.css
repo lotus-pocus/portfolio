@@ -62,11 +62,19 @@ header img {
   margin-left: 0px;
 }
 
-p aboutMe {
+p.aboutMe {
   color: rgb(65, 60, 60);
   font-size: 20px;
+  text-align: left;
+  margin-top: 40px;
 }
 
 h1 {
   font-size: 50px;
+}
+
+p.contactInfo {
+  color:rgb(65, 60, 60);
+  font-size: 20px;
+  margin-top: 20px;
 }
