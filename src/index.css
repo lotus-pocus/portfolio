@@ -14,9 +14,10 @@ body {
   letter-spacing: 0.5px;
 }
 
-main {
+main.projectStyle {
   padding: 25px 3%;
-  margin-top: 10px;
+  margin-top: 20px;
+  gap: 30px;
 }
 
 code {

@@ -1,13 +1,14 @@
 // Import data from data.json file
 import project from '../data/project.json';
-import projectImages from '../image/image01.png';
+
+
 
 
 function Project() {
 
 
   return (
-    <main>
+    <main className='projectStyle'>
 
       <h2>Projects: </h2>
 
@@ -15,10 +16,10 @@ function Project() {
 
       {project.map((Object, index) => {
         return (
-          <div key={index}>
+          <div key={index.id}>
             <h3>{Object.name}</h3>
-            <img src={projectImages} alt=""/>
-            <p>{Object.url}</p>
+            <img style={{width:'auto',height:'auto'}} src={Object.image} alt="project image"/>
+            <a href={Object.url} target="_blank">project</a>
           </div>
         )
       })}
