@@ -7,10 +7,11 @@ function Landing() {
         height:1200
          }}>
         
-            <h1 style={{color:"blueviolet"}}>for the love of design</h1>
+            <h2 className="tagline">for the love of design</h2>
             <br></br>
-            <p>Creating responsive and unique webpages.
-            </p>
+            <p className="smallprint">Creating responsive and unique webpages.</p>
+            <h1 className="introduction">Hi, I am Lotus</h1>
+            <p className="subtitle">/web developer/</p>
         </div>
     );
 }

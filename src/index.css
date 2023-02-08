@@ -16,6 +16,7 @@ body {
 
 main {
   padding: 25px 3%;
+  margin-top: 10px;
 }
 
 code {
@@ -63,18 +64,47 @@ header img {
 }
 
 p.aboutMe {
+  display:flex;
+  grid-template-columns: auto;
   color: rgb(65, 60, 60);
   font-size: 20px;
   text-align: left;
   margin-top: 40px;
 }
 
-h1 {
-  font-size: 50px;
-}
 
 p.contactInfo {
   color:rgb(65, 60, 60);
   font-size: 20px;
   margin-top: 20px;
+}
+
+h1.introduction {
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  font-stretch: wider;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+p.subtitle {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: grey;
+}
+
+p.smallprint {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: grey;
+  line-height: 0em;
+}
+
+h2.tagline {
+  color: grey;
+  font-size: 2rem;
+  font-weight: bold;
 }
