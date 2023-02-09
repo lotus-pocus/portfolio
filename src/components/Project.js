@@ -16,9 +16,9 @@ function Project() {
 
       {project.map((Object, index) => {
         return (
-          <div key={index.id}>
+          <div className="container" key={index.id}>
             <h3>{Object.name}</h3>
-            <img style={{width:'auto',height:'auto'}} src={Object.image} alt="project image"/>
+            <img style={{width:'200px',height:'200px'}} src={`${Object.image}`} alt="project image"/>
             <a href={Object.url} target="_blank">project</a>
           </div>
         )
