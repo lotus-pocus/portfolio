@@ -24,31 +24,48 @@
         ]
     },
     {
-        "id": "2",
         "name": "Work Day Scheduler",
         "url": "https://lotus-pocus.github.io/Work_Day_Scheduler/",
         "Github repo": "https://github.com/lotus-pocus/Work_Day_Scheduler",
-        "image": "images/image03.png"
-    },
-    {
-        "id": "3",
-        "name": "Code Quiz",
-        "url": "https://lotus-pocus.github.io/Code_Quiz/",
-        "Github repo": "https://github.com/lotus-pocus/Code_Quiz",
-        "image": "images/image04.png"
+        "image": [
+            {
+                "id": "3",
+                "png": "images/image03.png" 
+            }
+        ]
     },
     {
         "id": "4",
+        "name": "Code Quiz",
+        "url": "https://lotus-pocus.github.io/Code_Quiz/",
+        "Github repo": "https://github.com/lotus-pocus/Code_Quiz",
+        "image": [
+            {
+                "id": "4",
+                "png": "images/image04.png" 
+            }
+        ]
+    },
+    {
         "name": "Random Password Generator",
         "url": "https://lotus-pocus.github.io/Random_Password_Generator/",
         "Github repo": "https://github.com/lotus-pocus/Random_Password_Generator",
-        "image": "images/image05.png"
+        "image": [
+            {
+                "id": "5",
+                "png": "images/image05.png" 
+            }
+        ]
     },
     {
-        "id": "5",
         "name": "Bootstrap",
         "url": "https://lotus-pocus.github.io/Bootstrap-Portfolio/",
         "Github repo": "https://github.com/lotus-pocus/Bootstrap-Portfolio",
-        "image": "images/image06.png"
+        "image": [
+            {
+                "id": "6",
+                "png": "images/image06.png" 
+            }
+        ]
     }
 ]
