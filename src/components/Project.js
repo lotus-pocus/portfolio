@@ -18,7 +18,7 @@ function Project() {
           <div className="box">
             <h3>{Object.name}</h3>
             <br></br>
-            <img src={Object.image} alt="project image"/>
+            <img src={`/image/image0${index + 1}.png`} alt="project image"/>
             <br></br>
             <a href={Object.url} target="_blank">project</a>
           </div>
