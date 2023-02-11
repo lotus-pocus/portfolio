@@ -9,7 +9,7 @@ function Project() {
   return (
     <main className='projectStyle'>
 
-      <h1 projectTitle>Projects: </h1>
+      <h1>Projects: </h1>
       <br></br>
 
       {/* Use the map() method to output a <div> for each project */}
