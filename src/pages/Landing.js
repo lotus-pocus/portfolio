@@ -7,11 +7,14 @@ function Landing() {
         height:1200
          }}>
         
-            <h2 className="tagline">for the love of design</h2>
+            <h2 className="tagline">for the <span style={{color: "#ffab6d"}}>love </span> of design</h2>
             <br></br>
             <p className="smallprint">Creating responsive and unique webpages.</p>
             <h1 className="introduction">Hi, I am Lotus</h1>
-            <p className="subtitle">/web developer/</p>
+            <p className="subtitle">your friendly neighbourhood</p>
+            <br>
+            </br>
+            <p className="developer">//web developer//</p>
         </div>
     );
 }

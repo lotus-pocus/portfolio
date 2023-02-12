@@ -3,7 +3,6 @@ import project from './project.json';
 
 
 
-
 function Project() {
 
   return (
@@ -11,15 +10,17 @@ function Project() {
 
       <h1>Projects: </h1>
       <br></br>
+      <p>Scroll down to have a look at some of my projects.</p>
+      <br></br>
 
       {/* Use the map() method to output a <div> for each project */}
 
       {project.map((Object, index) => {
         return (
           <div className="container" key={index}>
-            <h3>{Object.name}</h3>
+            <h2 style={{ color: 'black' }}>{Object.name}</h2>
             <br></br>
-            <img style={{width:'600px',height:'600px'}} src={require(`../image/image0${index + 1}.png`)} alt="project image"/>
+            <img className="projectImg" style={{ width: '800px', height: '600px' }} src={require(`../image/image0${index + 1}.png`)} alt="project image" />
             <br></br>
             <a href={Object.url} target="_blank">project</a>
           </div>
@@ -27,6 +28,7 @@ function Project() {
       })}
 
     </main>
+
   )
 }
 

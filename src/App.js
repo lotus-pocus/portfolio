@@ -4,6 +4,7 @@ import Landing from './pages/Landing';
 import About from './pages/About';
 import Header from './components/Header';
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
 //import images from folder
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
         
+        <Footer />
     </>
   );
 }

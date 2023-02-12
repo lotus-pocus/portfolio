@@ -4,7 +4,7 @@ import logo from "../image/Logo.png";
 function Header() {
     return (
         <header>
-            <img src={logo} alt=""/>
+            <img className= "logoImg" src={logo} alt=""/>
             <nav>
                 <NavLink to="./">Home</NavLink>
                 <NavLink to="./about">About</NavLink>

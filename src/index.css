@@ -1,6 +1,7 @@
 * {
   max-width: 1200px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 html, body, #root {
@@ -15,17 +16,13 @@ body {
   color: grey;
 }
 
-main.projectStyle {
-  padding: 25px 3%;
-  margin-top: 20px;
-  gap: 30px;
-  color:grey;
-}
-
 .container {
   display:grid;
   grid-template-columns: repeat(4 1fr);
   grid-row-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
 }
 
 
@@ -34,17 +31,12 @@ code {
     monospace;
 }
 
-main .projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-}
-
-img {
+.logoImg {
 width: 200px;
+margin-left: 0px;
 }
 
-Header {
+header {
   background-color: rgb(148, 250, 216);
   Height: 200px;
   display: flex;
@@ -61,16 +53,16 @@ header nav a {
   font-weight: bold;
 }
 
-a:not(:last-child) {
+header nav a:hover {
+  color: #ffab6d;
+}
+
+header a:not(:last-child) {
   margin-right: 10px;
 }
 
 header nav a.active {
   text-decoration: underline;
-}
-
-header img {
-  margin-left: 0px;
 }
 
 p.aboutMe {
@@ -80,13 +72,11 @@ p.aboutMe {
   font-size: 20px;
   text-align: left;
   margin-top: 40px;
+  padding: 5px;
 }
 
-
-p.contactInfo {
-  color:rgb(65, 60, 60);
-  font-size: 20px;
-  margin-top: 20px;
+.aboutMeImg {
+ width: 200px;
 }
 
 h1.introduction {
@@ -106,15 +96,69 @@ p.subtitle {
   color: grey;
 }
 
+p.developer {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px grey;
+}
+
 p.smallprint {
   font-size: 0.8rem;
   font-weight: bold;
   color: grey;
   line-height: 0em;
+  padding: 5px;
 }
 
 h2.tagline {
   color: grey;
   font-size: 2rem;
   font-weight: bold;
+  padding: 5px;
 }
+
+.aboutLinks {
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.aboutMeTitle {
+  padding: 5px;
+}
+
+.projectImg {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.contactInfo {
+  margin-top: 100px;
+  display: block;
+  padding: 5px;
+}
+
+.contactInfo a {
+font-size: 80px;
+display: block;
+}
+
+a:hover {
+  color:rgb(148, 250, 216);
+}
+
+.contactTitle {
+  margin-bottom: 40px;
+}
+
+.linkedIn {
+  margin-top: 20px;
+  color: #0072B1;
+}
+
+.linkedIn:hover {
+  color:rgb(148, 250, 216);
+}
+
