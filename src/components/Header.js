@@ -2,6 +2,8 @@ import {NavLink} from 'react-router-dom';
 import logo from "../image/Logo.png";
 
 function Header() {
+    
+
     return (
         <header>
             <img className= "logoImg" src={logo} alt=""/>
