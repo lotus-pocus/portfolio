@@ -18,7 +18,7 @@ function Project() {
       {project.map((Object, index) => {
         return (
           <div className="container" key={index}>
-            <h2 style={{ color: 'black' }}>{Object.name}</h2>
+            <h2 style={{ color: 'grey' }}>{Object.name}</h2>
             <br></br>
             <img className="projectImg" style={{ width: '800px', height: '600px' }} src={require(`../image/image0${index + 1}.png`)} alt="project image" />
             <br></br>
