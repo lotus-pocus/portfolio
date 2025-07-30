@@ -5,41 +5,48 @@
         "name": "Todo List",
         "url": "https://lotus-pocus.github.io/TodoList/",
         "Github repo": "https://github.com/lotus-pocus/TodoList",
-        "image": "https://drive.google.com/file/d/1__wKr7EJoGipxW_HT6KIqS5h8_7032hn/view?usp=share_link"
+        "image": "/image/image01.png"
     },
     {
         "id": "1",
         "name": "Rhyming word Game collaboration",
         "url": "https://ozgunefe.github.io/Rhyming-Word-Game/",
         "Github repo": "https://github.com/OzgunEfe/Rhyming-Word-Game",
-        "image": "images/image02.png"
+        "image": "/image/image02.png"
     },
     {
         "id": "2",
         "name": "Work Day Scheduler",
         "url": "https://lotus-pocus.github.io/Work_Day_Scheduler/",
         "Github repo": "https://github.com/lotus-pocus/Work_Day_Scheduler",
-        "image": "images/image03.png"
+        "image": "/image/image03.png"
     },
     {
         "id": "3",
         "name": "Code Quiz",
         "url": "https://lotus-pocus.github.io/Code_Quiz/",
         "Github repo": "https://github.com/lotus-pocus/Code_Quiz",
-        "image": "images/image04.png"
+        "image": "/image/image04.png"
     },
     {
         "id": "4",
         "name": "Movie Finder",
         "url": "https://lotus-pocus.github.io/moviefinder/#",
         "Github repo": "https://github.com/lotus-pocus/moviefinder",
-        "image": "images/image05.png"
+        "image": "/image/image05.png"
     },
     {
         "id": "5",
         "name": "Collaboration Project - Random Movie Generator",
         "url": "https://reelsoffortune.netlify.app/",
         "Github repo": "https://github.com/al946x/reelsoffortune",
-        "image": "images/image06.png"
-    }
+        "image": "/image/image06.png"
+    },
+   {
+  "id": "6",
+  "name": "Studio Website Rebuild (In Progress)",
+  "url": "https://lotus-pocus.github.io/portfolio",
+  "image": "/image/image07.png",
+  "description": "Currently rebuilding our studio website using a custom React frontend, Directus CMS for structured content, and AWS S3 for asset delivery — deployed via Docker. Designed to replace a legacy WordPress build for faster load times and more flexible layout control."
+}
 ]
